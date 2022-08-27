@@ -31,10 +31,10 @@ public class Jugador {
     @Override
     public String toString() {
         return "Jugador:\n"+"Id:"+this.id+"\n"
-                +"Nombre"+this.nombre+"\n"
-                +"Valor:"+this.valor+"\n"
-                +"Partidos Jugados:"+this.partidosJugados+"\n"
-                +"Minutos Jugados:"+this.minutosJugados+"\n"
+                +"Nombre:"+this.nombre+"\n"
+                +"Valor % del maximo:"+this.valor+"\n"
+                +"Partidos Jugados % del maximo:"+this.partidosJugados+"\n"
+                +"Minutos Jugados * 10^3:"+this.minutosJugados+"\n"
                 +"Goles:"+this.goles+"\n"
                 +"Aistencias:"+this.asistencias+"\n"
                 +"Posicion:"+this.posicion;
